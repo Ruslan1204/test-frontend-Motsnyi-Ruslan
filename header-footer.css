@@ -15,7 +15,13 @@ li {
 ========================
 */
 
-.widget{
+.widget-clock {
+  position: absolute;
+  top: 0.5%;
+  left: 76%;
+}
+
+.widget {
   width: 100%;
   margin-top: 50px;
 }
@@ -175,25 +181,25 @@ li {
 }
 
 .link-yt:hover,
-.link-yt:focus{
+.link-yt:focus {
   background-color: red;
 }
 
 .link-tk:hover,
-.link-tk:focus{
-background-color: black;
+.link-tk:focus {
+  background-color: black;
 }
 
-.subtitle{
+.subtitle {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.appstores{
+.appstores {
   text-align: center;
 }
 
-.appstores-item{
+.appstores-item {
   width: 180px;
   height: 54px;
 }
