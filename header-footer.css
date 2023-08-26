@@ -157,10 +157,15 @@ li {
   border-radius: 50%;
 
   background-color: rgb(198, 186, 186);
+
 }
 
 .socials__icon {
   fill: #fff;
+}
+
+.link-fb{
+  transition: background-color 500ms ease-out;
 }
 
 .link-fb:hover,
@@ -168,15 +173,26 @@ li {
   background-color: rgb(0, 119, 255);
 }
 
+.link-inst{
+  transition: background-image 500ms ease-out;
+}
+
 .link-inst:hover,
 .link-inst:focus {
-  /* background-color: blue; */
   background-image: linear-gradient(var(--start-color), var(--end-color));
+}
+
+.link-yt{
+  transition: background-color 500ms ease-out;
 }
 
 .link-yt:hover,
 .link-yt:focus {
   background-color: red;
+}
+
+.link-tk{
+  transition: background-color 500ms ease-out;
 }
 
 .link-tk:hover,
