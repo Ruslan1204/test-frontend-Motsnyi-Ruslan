@@ -157,14 +157,13 @@ li {
   border-radius: 50%;
 
   background-color: rgb(198, 186, 186);
-
 }
 
 .socials__icon {
   fill: #fff;
 }
 
-.link-fb{
+.link-fb {
   transition: background-color 500ms ease-out;
 }
 
@@ -173,7 +172,7 @@ li {
   background-color: rgb(0, 119, 255);
 }
 
-.link-inst{
+.link-inst {
   transition: background-image 500ms ease-out;
 }
 
@@ -182,7 +181,7 @@ li {
   background-image: linear-gradient(var(--start-color), var(--end-color));
 }
 
-.link-yt{
+.link-yt {
   transition: background-color 500ms ease-out;
 }
 
@@ -191,7 +190,7 @@ li {
   background-color: red;
 }
 
-.link-tk{
+.link-tk {
   transition: background-color 500ms ease-out;
 }
 
